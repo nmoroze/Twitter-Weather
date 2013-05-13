@@ -79,10 +79,10 @@ public class Main extends JPanel{
 	public static void main(String[] args) {
 		//while(true){
 		 ConfigurationBuilder cb = new ConfigurationBuilder();
-		   cb.setOAuthConsumerKey("WnapwmtNlKB1cEHUjY00IQ");
-		  cb.setOAuthConsumerSecret("E8zNYCiog6n8BwiivOktg0sVQqNHUPMe5u6DwE1mMg");
-		  cb.setOAuthAccessToken("814225320-6Q3slikFfOcafUa3pZ9rNxAujsXrTqLUfvNR6kXc");
-		  cb.setOAuthAccessTokenSecret("9qjnxvLiPb1ESzqGfAlUjUlRcrtl20IIkEiqTJ7JJcs");
+		   cb.setOAuthConsumerKey("Insert your key here");
+		  cb.setOAuthConsumerSecret("Insert your secret key here");
+		  cb.setOAuthAccessToken("Insert your access token here");
+		  cb.setOAuthAccessTokenSecret("Insert your secret access token here");
 		  //Make the twitter object and prepare the query
 		  Twitter twitter = new TwitterFactory(cb.build()).getInstance();
 		  Query query = new Query("#earthquake");
